@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/bg_app1" tools:context=".MainActivity">
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_lanjut"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="160dp"
+            android:padding="12dp"
+            android:text="Selamat Ulang Tahun"
+            android:layout_weight="0.55" />
+
+        <ImageView
+            android:src="@drawable/year"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:id="@+id/imageView2"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="bottom" />
+
+        <ImageView
+            android:src="@drawable/happy"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:id="@+id/imageView"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal|top" />
+
+
+</FrameLayout>
